@@ -47,10 +47,12 @@ export default function Home() {
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
                   <li>
-                    <a className="rounded-md">About Me</a>
+                    <Link href="/working" className="rounded-md">
+                      About Me
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/projects#Jellyfin" className="rounded-md">
+                    <Link href="/projects#Proxmox" className="rounded-md">
                       Projects
                     </Link>
                   </li>
@@ -61,55 +63,13 @@ export default function Home() {
             <div className="hero min-h-screen">
               <h1>Here are some of my projects</h1>
               <div className="carousel carousel-center p-4 space-x-4 scrollbar-thin bg-neutral rounded-box max-w-screen-xl border-4 border-emerald-500">
-                {/* Proxmox */}
-                <div className="carousel-item min-h-32" id="Proxmox">
-                  <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure className="px-10 pt-10">
-                      <img
-                        src="Proxmox.png"
-                        alt="Shoes"
-                        className="rounded-xl"
-                      />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                      <h2 className="card-title">Proxmox</h2>
-                      <p>
-                        Open Source Hyperviser <br /> that just works? <br />
-                        Yes please!
-                      </p>
-                      <button className="btn btn-primary">More Info</button>
-                    </div>
-                  </div>
-                </div>
-                {/* TrueNAS */}
-                <div className="carousel-item" id="TrueNAS">
-                  <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure className="px-10 pt-10">
-                      <img
-                        src="TrueNAS.png"
-                        alt="Shoes"
-                        className="rounded-xl"
-                      />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                      <h2 className="card-title">TrueNAS</h2>
-                      <p>
-                        Simple, but customisable <br /> storage sever for Free?
-                        <br /> Why not?
-                      </p>
-                      <div className="card-actions">
-                        <button className="btn btn-primary">More Info</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 {/* Jellyfin */}
                 <div className="carousel-item" id="Jellyfin">
                   <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                       <img
                         src="Jellyfin.png"
-                        alt="Shoes"
+                        alt="Jellyfin Icon"
                         className="rounded-xl"
                       />
                     </figure>
@@ -125,13 +85,55 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                {/* TrueNAS */}
+                <div className="carousel-item" id="TrueNAS">
+                  <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                      <img
+                        src="TrueNAS.png"
+                        alt="TrueNAS Icon"
+                        className="rounded-xl"
+                      />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                      <h2 className="card-title">TrueNAS</h2>
+                      <p>
+                        Simple, but customisable <br /> storage sever for Free?
+                        <br /> Why not?
+                      </p>
+                      <div className="card-actions">
+                        <button className="btn btn-primary">More Info</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Proxmox */}
+                <div className="carousel-item min-h-32" id="Proxmox">
+                  <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                      <img
+                        src="Proxmox.png"
+                        alt="Proxmox Icon"
+                        className="rounded-xl"
+                      />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                      <h2 className="card-title">Proxmox</h2>
+                      <p>
+                        Open Source Hyperviser <br /> that just works? <br />
+                        Yes please!
+                      </p>
+                      <button className="btn btn-primary">More Info</button>
+                    </div>
+                  </div>
+                </div>
                 {/* Uptime Kuma */}
                 <div className="carousel-item" id="Uptime">
                   <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                       <img
                         src="Uptime Kuma.png"
-                        alt="Shoes"
+                        alt="Uptime Kuma Icon"
                         className="rounded-xl"
                       />
                     </figure>
@@ -148,19 +150,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* Carousel Item 5 */}
-                <div className="carousel-item" id="slide5">
+                {/* Homarr */}
+                <div className="carousel-item" id="Homarr">
                   <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                       <img
-                        src="PFP-Square.png"
-                        alt="Shoes"
+                        src="Homarr.png"
+                        alt="Homarr Icon"
                         className="rounded-xl"
                       />
                     </figure>
                     <div className="card-body items-center text-center">
-                      <h2 className="card-title">Shoes!</h2>
-                      <p>5. If a dog chews shoes whose shoes does he choose?</p>
+                      <h2 className="card-title">Homarr</h2>
+                      <p>
+                        127.0.0.1 <br /> I'm sorry <br /> For nothing!
+                      </p>
                       <div className="card-actions">
                         <button className="btn btn-primary">Buy Now</button>
                       </div>
@@ -221,10 +225,12 @@ export default function Home() {
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
             <ul className="menu p-4 w-80 border-r bg-base-100/80">
               <li>
-                <a>About Me</a>
+                <Link href="/working" className="rounded-md">
+                  About Me
+                </Link>
               </li>
               <li>
-                <a href="/projects#Jellyfin">Projects</a>
+                <a href="/projects#Proxmox">Projects</a>
               </li>
             </ul>
           </div>

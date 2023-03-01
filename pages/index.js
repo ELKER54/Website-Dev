@@ -43,10 +43,12 @@ export default function Home() {
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
                   <li>
-                    <a className="rounded-md">About Me</a>
+                    <Link href="/working" className="rounded-md">
+                      About Me
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/projects#Jellyfin" className="rounded-md">
+                    <Link href="/projects#Proxmox" className="rounded-md">
                       Projects
                     </Link>
                   </li>
@@ -135,10 +137,12 @@ export default function Home() {
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
             <ul className="menu p-4 w-80 border-r bg-base-100/80">
               <li>
-                <a>About Me</a>
+                <Link href="/working" className="rounded-md">
+                  About Me
+                </Link>
               </li>
               <li>
-                <a href="/projects#Jellyfin">Projects</a>
+                <a href="/projects#Proxmox">Projects</a>
               </li>
             </ul>
           </div>

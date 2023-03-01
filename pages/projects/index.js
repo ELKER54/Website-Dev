@@ -80,7 +80,9 @@ export default function Home() {
                         linux ISOs? <br /> All totally legal!
                       </p>
                       <div className="card-actions">
-                        <button className="btn btn-primary">More Info</button>
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -102,7 +104,9 @@ export default function Home() {
                         <br /> Why not?
                       </p>
                       <div className="card-actions">
-                        <button className="btn btn-primary">More Info</button>
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -123,7 +127,11 @@ export default function Home() {
                         Open Source Hyperviser <br /> that just works? <br />
                         Yes please!
                       </p>
-                      <button className="btn btn-primary">More Info</button>
+                      <div className="card-actions">
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -145,7 +153,9 @@ export default function Home() {
                         <br /> YES I CAN HEAR YOU
                       </p>
                       <div className="card-actions">
-                        <button className="btn btn-primary">More Info</button>
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -166,26 +176,32 @@ export default function Home() {
                         127.0.0.1 <br /> I'm sorry <br /> For nothing!
                       </p>
                       <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                {/* Carousel Item 6 */}
+                {/* Docusaurus */}
                 <div className="carousel-item" id="slide6">
                   <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                       <img
-                        src="PFP-Square.png"
-                        alt="Shoes"
+                        src="Docu.png"
+                        alt="Docusaurus Icon"
                         className="rounded-xl"
                       />
                     </figure>
                     <div className="card-body items-center text-center">
-                      <h2 className="card-title">Shoes!</h2>
-                      <p>6. If a dog chews shoes whose shoes does he choose?</p>
+                      <h2 className="card-title">Wiki</h2>
+                      <p>
+                        Rawr <br /> No really I am <br /> sorry this time
+                      </p>
                       <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <a href="/working">
+                          <button className="btn btn-primary">More Info</button>
+                        </a>
                       </div>
                     </div>
                   </div>

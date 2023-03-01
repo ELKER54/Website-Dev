@@ -43,7 +43,7 @@ export default function Home() {
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
                   <li>
-                    <Link href="/working" className="rounded-md">
+                    <Link href="/aboutme" className="rounded-md">
                       About Me
                     </Link>
                   </li>
@@ -119,8 +119,14 @@ export default function Home() {
                     <a href="https://elker.cc/hrzn" className="link link-hover">
                       HRZN
                     </a>
-                    <a href="https://" className="link link-hover">
+                    <a
+                      href="https://github.com/ELKER54"
+                      className="link link-hover"
+                    >
                       Code
+                    </a>
+                    <a href="/404" className="link link-hover">
+                      404
                     </a>
                   </div>
                   <div className="grid grid-flow-col gap-4">
@@ -137,7 +143,7 @@ export default function Home() {
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
             <ul className="menu p-4 w-80 border-r bg-base-100/80">
               <li>
-                <Link href="/working" className="rounded-md">
+                <Link href="/aboutme" className="rounded-md">
                   About Me
                 </Link>
               </li>

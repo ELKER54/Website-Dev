@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Elker</title>
+        <title>Elker's Projects</title>
         <meta name="description" content="Hey, I'm Elker" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -47,7 +47,7 @@ export default function Home() {
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
                   <li>
-                    <Link href="/working" className="rounded-md">
+                    <Link href="/aboutme" className="rounded-md">
                       About Me
                     </Link>
                   </li>
@@ -225,7 +225,7 @@ export default function Home() {
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
             <ul className="menu p-4 w-80 border-r bg-base-100/80">
               <li>
-                <Link href="/working" className="rounded-md">
+                <Link href="/aboutme" className="rounded-md">
                   About Me
                 </Link>
               </li>

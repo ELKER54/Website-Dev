@@ -38,7 +38,9 @@ export default function Home() {
                 </label>
               </div>
               <div className="flex-1 px-2 mx-2 text-4xl">
-                <Link href="/">Elker</Link>
+                <Link href="/">
+                  <i className="fa-solid fa-house"></i>
+                </Link>
               </div>
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
@@ -109,7 +111,6 @@ export default function Home() {
               >
                 <div>
                   <div className="grid grid-flow-col gap-4">
-                    <a href="" className="link link-hover"></a>
                     <a
                       href="https://elker.cc/webemail"
                       className="link link-hover"
@@ -128,6 +129,12 @@ export default function Home() {
                     <a href="/404" className="link link-hover">
                       404
                     </a>
+                    <a href="https://wiki.km27.uk" className="link link-hover">
+                      Wiki
+                    </a>
+                    <Link href="/aboutme" className="link link-hover">
+                      About Me
+                    </Link>
                   </div>
                   <div className="grid grid-flow-col gap-4">
                     <div>
@@ -143,9 +150,7 @@ export default function Home() {
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
             <ul className="menu p-4 w-80 border-r bg-base-100/80">
               <li>
-                <Link href="/aboutme" className="rounded-md">
-                  About Me
-                </Link>
+                <Link href="/aboutme">About Me</Link>
               </li>
               <li>
                 <a href="/projects#Proxmox">Projects</a>

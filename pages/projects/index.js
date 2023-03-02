@@ -15,6 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       {/* Navbar */}
       <main className="bg-main h-screen w-full">
         <div className="drawer">
@@ -42,7 +43,9 @@ export default function Home() {
                 </label>
               </div>
               <div className="flex-1 px-2 mx-2 text-4xl">
-                <Link href="/">Elker</Link>
+                <Link href="/">
+                  <i className="fa-solid fa-house"></i>
+                </Link>
               </div>
               <div className="flex-none hidden lg:block text-2xl">
                 <ul className="menu menu-horizontal">
@@ -79,11 +82,9 @@ export default function Home() {
                         I didn't know you could watch <br />
                         linux ISOs? <br /> All totally legal!
                       </p>
-                      <div className="card-actions">
-                        <a href="/working">
-                          <button className="btn btn-primary">More Info</button>
-                        </a>
-                      </div>
+                      <a href="https://jellyfin.org/" target="_blank">
+                        <button className="btn btn-primary">More Info</button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -104,7 +105,10 @@ export default function Home() {
                         <br /> Why not?
                       </p>
                       <div className="card-actions">
-                        <a href="/working">
+                        <a
+                          href="https://www.truenas.com/truenas-core/"
+                          target="_blank"
+                        >
                           <button className="btn btn-primary">More Info</button>
                         </a>
                       </div>
@@ -118,7 +122,7 @@ export default function Home() {
                       <img
                         src="Proxmox.png"
                         alt="Proxmox Icon"
-                        className="rounded-xl"
+                        className="rounded-3xl"
                       />
                     </figure>
                     <div className="card-body items-center text-center">
@@ -128,7 +132,7 @@ export default function Home() {
                         Yes please!
                       </p>
                       <div className="card-actions">
-                        <a href="/working">
+                        <a href="https://www.proxmox.com/en/" target="_blank">
                           <button className="btn btn-primary">More Info</button>
                         </a>
                       </div>
@@ -153,7 +157,10 @@ export default function Home() {
                         <br /> YES I CAN HEAR YOU
                       </p>
                       <div className="card-actions">
-                        <a href="/working">
+                        <a
+                          href="https://github.com/louislam/uptime-kuma"
+                          target="_blank"
+                        >
                           <button className="btn btn-primary">More Info</button>
                         </a>
                       </div>
@@ -176,7 +183,7 @@ export default function Home() {
                         127.0.0.1 <br /> I'm sorry <br /> For nothing!
                       </p>
                       <div className="card-actions">
-                        <a href="/working">
+                        <a href="https://homarr.dev/" target="_blank">
                           <button className="btn btn-primary">More Info</button>
                         </a>
                       </div>
@@ -199,7 +206,7 @@ export default function Home() {
                         Rawr <br /> No really I am <br /> sorry this time
                       </p>
                       <div className="card-actions">
-                        <a href="/working">
+                        <a href="https://docusaurus.io/" target="_blank">
                           <button className="btn btn-primary">More Info</button>
                         </a>
                       </div>
@@ -214,7 +221,6 @@ export default function Home() {
             >
               <div>
                 <div className="grid grid-flow-col gap-4">
-                  <a href="" className="link link-hover"></a>
                   <a
                     href="https://elker.cc/webemail"
                     className="link link-hover"
@@ -224,9 +230,21 @@ export default function Home() {
                   <a href="https://elker.cc/hrzn" className="link link-hover">
                     HRZN
                   </a>
-                  <a href="https://" className="link link-hover">
+                  <a
+                    href="https://github.com/ELKER54"
+                    className="link link-hover"
+                  >
                     Code
                   </a>
+                  <a href="/404" className="link link-hover">
+                    404
+                  </a>
+                  <a href="https://wiki.km27.uk" className="link link-hover">
+                    Wiki
+                  </a>
+                  <Link href="/aboutme" className="link link-hover">
+                    About Me
+                  </Link>
                 </div>
                 <div className="grid grid-flow-col gap-4">
                   <div>

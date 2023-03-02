@@ -25,7 +25,10 @@ export default function Home() {
             </h1>
             <p className="mb-5 text-warning">
               Maybe you got a bad url or it could be that I messed up! <br /> If
-              it should work please let me know on github
+              it should work please let me know on
+              <a className="link px-1" href="https://github.com/ELKER54">
+                github
+              </a>
             </p>
             <button className="btn btn-primary">
               <a href="/">Go Home</a>

@@ -27,9 +27,9 @@ export default function Home() {
               This page is currently under construction please come back later
               to see the progress
             </p>
-            <button className="btn btn-primary">
-              <a href="/">Go Home</a>
-            </button>
+            <a href="/">
+              <button className="btn btn-primary">Go Home</button>
+            </a>
           </div>
         </div>
       </div>

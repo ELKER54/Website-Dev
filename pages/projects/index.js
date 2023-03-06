@@ -231,7 +231,7 @@ export default function Home() {
                     HRZN
                   </a>
                   <a
-                    href="https://github.com/ELKER54"
+                    href="https://github.com/ELKER54/Website-Dev"
                     className="link link-hover"
                   >
                     Code

@@ -63,9 +63,9 @@ export default function Home() {
               </div>
             </div>
             {/* Page Content */}
-            <div className="hero min-h-screen">
+            <div className="hero p-24">
               <h1>Here are some of my projects</h1>
-              <div className="carousel carousel-center p-4 space-x-4 scrollbar-thin bg-neutral rounded-box max-w-screen-xl border-4 border-emerald-500">
+              <div className="carousel carousel-center p-4 space-x-4 scrollbar-thin bg-neutral rounded-box max-w-screen-xl border-4 border-emerald-500 ">
                 {/* Jellyfin */}
                 <div className="carousel-item" id="Jellyfin">
                   <div className="card w-96 bg-base-100 shadow-xl">
@@ -217,7 +217,7 @@ export default function Home() {
             </div>
             <footer
               id="Footer"
-              className="footer footer-center py-2 bg-base-200/50 text-base-content border-t"
+              className="footer footer-center py-1 bg-base-200/50 text-base-content border-t"
             >
               <div>
                 <div className="grid grid-flow-col gap-4">

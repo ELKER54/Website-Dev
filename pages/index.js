@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Navbar */}
-      <main className="bg-main h- w-full">
+      <main className="bg-main h-w-full">
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
@@ -59,8 +59,8 @@ export default function Home() {
             </div>
             {/* Page Content */}
             <div>
-              <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row">
+              <div className="hero ">
+                <div className="hero-content flex-col lg:flex-row p-52">
                   <Image
                     src="/PFP-Small.png"
                     className="md:max-w-sm rounded-full border-4"
@@ -77,7 +77,7 @@ export default function Home() {
                     <p className="text-3xl text-">
                       Take a look around my website.
                     </p>
-                    <p className=" text-2xl text-">3rd times the charm! :)</p>
+                    <p className=" text-2xl text-">3rd times the charm!</p>
 
                     <div className="flex gap-2">
                       <a href="https://elker.cc/gh" target="_blank">
@@ -105,10 +105,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <footer
-                id="Footer"
-                className="footer footer-center py-2 bg-base-200/50 text-base-content border-t"
-              >
+              <footer className="footer footer-center py-1 bg-base-200/50 text-base-content border-t">
                 <div>
                   <div className="grid grid-flow-col gap-4">
                     <a
@@ -126,16 +123,17 @@ export default function Home() {
                     >
                       Code
                     </a>
-                    <a href="/404" className="link link-hover">
-                      404
-                    </a>
                     <a href="https://wiki.km27.uk" className="link link-hover">
                       Wiki
                     </a>
                     <Link href="/aboutme" className="link link-hover">
                       About Me
                     </Link>
+                    <Link href="/quotes" className="link link-hover">
+                      Quotes
+                    </Link>
                   </div>
+
                   <div className="grid grid-flow-col gap-4">
                     <div>
                       <p>Copyright © 2023 - Some rights reserved</p>

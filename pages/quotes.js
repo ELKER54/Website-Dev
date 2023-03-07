@@ -67,8 +67,8 @@ export default function Home() {
             {/* Page Content */}
             <div>
               <div className="hero">
-                <div className="hero-content text-center p-52">
-                  <div className="max-w-lg grid gap-1 underline text-xl text-accent rounded-md border-4 border-info bg-base-200/50 ">
+                <div className="hero-content text-center p-44">
+                  <div className="max-w-lg grid gap-1 underline text-xl text-accent rounded-md border-4 border-info bg-base-200/50 py-2">
                     <h1>Can I have a touch on the of the clipboard? NO!</h1>
                     <h1>An old man died</h1>
                     <h1>Oh look, there's Mr Bladder in the basement</h1>
@@ -81,6 +81,7 @@ export default function Home() {
                     <h1>No Hovris, this is my water.</h1>
                     <h1>Does your friend have a worm in his brain?</h1>
                     <h1>Ok fine. BYE!</h1>
+                    <h1>How about a sandwhich rapped in a tissue?</h1>
                   </div>
                 </div>
               </div>
@@ -97,7 +98,7 @@ export default function Home() {
                       HRZN
                     </a>
                     <a
-                      href="https://github.com/ELKER54"
+                      href="https://github.com/ELKER54/Website-Dev"
                       className="link link-hover"
                     >
                       Code

@@ -236,14 +236,17 @@ export default function Home() {
                   >
                     Code
                   </a>
-                  <a href="/404" className="link link-hover">
-                    404
-                  </a>
                   <a href="https://wiki.km27.uk" className="link link-hover">
                     Wiki
                   </a>
+                  <Link href="/418" className="link link-hover">
+                    Tea?
+                  </Link>
                   <Link href="/aboutme" className="link link-hover">
                     About Me
+                  </Link>
+                  <Link href="/quotes" className="link link-hover">
+                    Quotes
                   </Link>
                 </div>
                 <div className="grid grid-flow-col gap-4">

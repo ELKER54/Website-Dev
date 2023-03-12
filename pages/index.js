@@ -126,6 +126,9 @@ export default function Home() {
                     <a href="https://wiki.km27.uk" className="link link-hover">
                       Wiki
                     </a>
+                    <Link href="/418" className="link link-hover">
+                      Tea?
+                    </Link>
                     <Link href="/aboutme" className="link link-hover">
                       About Me
                     </Link>

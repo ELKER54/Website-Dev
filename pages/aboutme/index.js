@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Who is Elker?</title>
-        <meta name="description" content="Hey, I'm Elker" />
+        <meta name="description" content="Look what I'm about" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
